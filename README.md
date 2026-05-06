@@ -4,6 +4,10 @@ CareerOps is a modern, AI-powered SaaS dashboard built to revolutionize how job 
 
 Whether you are an **End User** trying to land your dream job or a **Developer** looking to contribute to a full-stack Python AI application, this guide has you covered.
 
+## Documentation
+
+Live documentation is available at: https://yeshiva-434245e7.mintlify.app/
+
 ---
 
 ## 🌟 Features (For Users)
@@ -148,12 +152,3 @@ CareerOps/
 API Keys and Database credentials should **never** be committed to version control.
 *   **API Keys** can be entered directly in the `Settings` page of the UI (saved to a local `user_keys.json`), added to `.streamlit/secrets.toml`, or exported as standard environment variables (e.g., `OPENAI_API_KEY`).
 *   **PostgreSQL credentials** must live strictly in `.streamlit/secrets.toml`.
-
----
-
-## 🗺️ Roadmap & Future Enhancements
-
-- [ ] **PDF Export:** Allow users to export the AI-generated tailored resumes directly to cleanly formatted PDFs.
-- [ ] **Email Integration:** Connect via IMAP/Gmail API to automatically move Kanban cards based on interview invite emails.
-- [ ] **Browser Extension:** A companion Chrome extension to parse job descriptions directly from LinkedIn/Indeed and send them to the CareerOps database.
-- [ ] **Advanced Agentic Research:** Grant the Research Agent direct web-search capabilities (e.g., via Tavily or SerpAPI) for real-time company news.
