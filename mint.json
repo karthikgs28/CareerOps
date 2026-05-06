@@ -1,0 +1,9 @@
+{
+  "name": "CareerOps",
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["index"]
+    }
+  ]
+}
